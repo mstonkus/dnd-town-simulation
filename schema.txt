@@ -1,0 +1,62 @@
+entity
+-id #every thing in the sim will have some id
+-ac #need to give everything ac, will be used to determine hit/mix
+-hp #hp will be used to determine if still in world, drop to zero and remove
+	
+	actor
+	-gender
+	-age
+	-level
+	-exp
+	-alignment
+	
+	npc
+	-storyline (Y/N)
+		
+		class
+		-hit_dice
+			barbarian
+			bard
+			cleric
+			druid
+			fighter
+			monk
+			paladin
+			rogue
+			sorcerer
+			warlock
+			wizard
+		
+		race
+			human
+			elf
+				dark
+				high
+				wood
+			dwarf
+				hill
+				mountain
+			half-orc
+			halfing
+				lightfoot
+				stout
+			tiefling
+			half-elf
+			dragonborn
+				red
+				black
+				blue
+				green
+				white
+				silver
+				gold
+				bronze
+				brass
+			gnome
+				forest
+				rock
+		
+		background
+
+				
+		
